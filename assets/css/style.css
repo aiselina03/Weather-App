@@ -1,0 +1,35 @@
+.weatherapp {
+    margin: 50px;
+  }
+  .weatherapp form input {
+    width: 150px;
+    height: 27px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid grey;
+  }
+  .weatherapp form input:focus {
+    outline: none;
+  }
+  .weatherapp form .select {
+    height: 27px;
+    margin: 0 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .weatherapp form button {
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-color: pink;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .weatherapp form button:focus {
+    outline: none;
+  }
+  .weatherapp .info {
+    margin-top: 20px;
+    line-height: 40px;
+  }
